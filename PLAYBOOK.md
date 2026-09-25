@@ -1,0 +1,45 @@
+# OptiFlow Upwork Bidding Playbook
+
+Standing instructions for the Upwork bidding assistant. Read this at the start of every session.
+
+- Upwork account: Arshiq S. (Freelancer), org_uid `1788572302518161409`
+- Ledger (proposals + market watch): https://claude.ai/artifact/KoWWGZnAeA3SqQjHUyT2rQ
+  - `proposals` collection: one doc per proposal sent
+  - `market` collection: market-research log of job posts (company name only if stated in the post, no contact details)
+  - `analysis/current`: insight bullets shown on the page
+
+## Start-of-session checklist
+
+1. **Backfill market watch.** Review relevant jobs (Customer Service and Admin Support categories, plus the personalised Most Recent feed) that we could have bid on but didn't because they were more than 5 minutes old or already had 10+ proposals. For those whose post **names the company**, add a row to the `market` collection (skip ones already logged; the doc id is the job id).
+2. **Start the watch:** `/loop 3m check new Upwork jobs against my bidding rules`
+
+## Bidding rules
+
+1. **Speed first:** bid only on jobs posted less than 5 minutes ago...
+2. **...unless the job has fewer than 10 proposals.** Then the 5-minute rule is waived, but every other rule still applies.
+3. **Rate:** the hourly range must go above $6/hr.
+4. **Client hire rate above 90%.** Estimate it as `client_record.jobs_with_hires` (from `find_jobs get`) divided by `total_posted_jobs` (from `find_jobs search`).
+5. **Team or 24/7 jobs** (2+ hires or round-the-clock cover) come first and skip rule 3. Single-agent jobs are welcome too.
+6. **Location:**
+   - No preferred location: apply.
+   - The post says location doesn't matter: apply.
+   - The preferred countries include the Philippines or leave out Pakistan: skip.
+7. **Boost:** at most 15 Connects per proposal, only when the job looks likely to get viewed.
+8. **Approval:** every proposal needs the user's explicit "send" before it's submitted.
+
+## Proposal style
+
+- Open with the client's problem, then the offer: "you pay for one agent; backup cover and QA are on us."
+- Cite the most relevant real client: SwiftX (dispatch), Creality 3D (tech support), Yarbo (robotics), SilkSilky (Shopify DTC), Petkit (pet products), Amazon. Attach the matching portfolio project.
+- Follow any instruction hidden in the post (for example a required first word).
+- Never invent metrics, reviews or clients.
+- Suggested price for one agent: $8–12/hr.
+
+## Never
+
+- Log contact details, or contact clients outside Upwork (Upwork ToS).
+
+## Open items (as of 2026-09-25)
+
+- **Steel Blade salon** (job 2103377939360825857, $1,800 fixed, 2 proposals): draft ready. Needs the user's 1–3 minute intro video link and a personal "best customer service" story.
+- **VetPets** (job 2103361495744022496, $5–8/hr): draft ready. Needs a voice intro link. The first line must be exactly `VETPETS A-PLAYER`.
