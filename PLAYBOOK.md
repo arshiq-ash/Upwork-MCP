@@ -10,7 +10,7 @@ Standing instructions for the Upwork bidding assistant. Read this at the start o
 
 ## Start-of-session checklist
 
-1. **Backfill market watch.** Review relevant jobs (Customer Service and Admin Support categories, plus the personalised Most Recent feed) that we could have bid on but didn't because they were more than 5 minutes old or already had 10+ proposals. For those whose post **names the company**, add a row to the `market` collection (skip ones already logged; the doc id is the job id).
+1. **Backfill market watch.** Review jobs posted since the last session (Customer Service, Admin Support and the Most Recent feed). Add EVERY business named in a post to the `market` collection, whether or not we bid (doc id = job id; skip ones already logged). Record why we did or didn't bid. Never store contact details.
 2. **Start the watch:** `/loop 3m check new Upwork jobs against my bidding rules`
 
 ## Bidding rules
@@ -38,6 +38,8 @@ Standing instructions for the Upwork bidding assistant. Read this at the start o
 - Suggested price for one agent: $8–12/hr.
 
 ## Job sources checked each run
+
+Every run also logs every newly seen named business to the `market` collection.
 
 - Customer Service category (newest first)
 - Personalised Most Recent feed (covers all categories)
