@@ -24,8 +24,9 @@ Standing instructions for the Upwork bidding assistant. Read this at the start o
    - No preferred location: apply.
    - The post says location doesn't matter: apply.
    - The preferred countries include the Philippines or leave out Pakistan: skip.
-7. **Boost:** at most 15 Connects per proposal, only when the job looks likely to get viewed.
-8. **Approval:** every proposal needs the user's explicit "send" before it's submitted.
+7. **Role fit:** bid only on roles OptiFlow can staff with its own managed agents: customer support/CX (chat, email, phone), e-commerce/Shopify support, technical/after-sales support, dispatch/order coordination, and team or 24/7 coverage. Skip senior or embedded roles the client wants to manage directly: executive/management assistant, chief of staff, account or client-success manager, project/operations manager, and any "senior", "manager" or "lead" position reporting into the client's leadership.
+8. **Boost:** at most 15 Connects per proposal, only when the job looks likely to get viewed.
+9. **Approval:** every proposal needs the user's explicit "send" before it's submitted.
 
 ## Proposal style
 
