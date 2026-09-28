@@ -28,8 +28,9 @@ Standing instructions for the Upwork bidding assistant. Read this at the start o
    - The preferred countries include the Philippines or leave out Pakistan: skip.
 7. **Role fit:** bid only on roles OptiFlowCx can staff with its own managed agents: customer support/CX (chat, email, phone), e-commerce/Shopify support, technical/after-sales support, dispatch/order coordination, appointment setting (warm/inbound leads), cold calling and telemarketing, and team or 24/7 coverage. Skip senior or embedded roles the client wants to manage directly: executive/management assistant, chief of staff, account or client-success manager, project/operations manager, and any "senior", "manager" or "lead" position reporting into the client's leadership.
 8. **Boost:** at most 15 Connects per proposal, only when the job looks likely to get viewed.
-9. **Approval:** every proposal needs the user's explicit "send" before it's submitted.
-10. **Always link the job:** every job mentioned to the user (bids, drafts, skips worth noting) includes its full Upwork job post URL.
+9. **Alert on a match:** when a job qualifies, send a push notification (job title, rate, proposal count) and open the chat reply with a big 🚨 MATCH banner, the job link and the draft.
+10. **Approval:** every proposal needs the user's explicit "send" before it's submitted.
+11. **Always link the job:** every job mentioned to the user (bids, drafts, skips worth noting) includes its full Upwork job post URL.
 
 ## Proposal style
 
