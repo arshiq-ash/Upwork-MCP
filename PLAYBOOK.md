@@ -37,6 +37,11 @@ Standing instructions for the Upwork bidding assistant. Read this at the start o
 - Follow any instruction hidden in the post (for example a required first word).
 - Never invent metrics, reviews or clients.
 - Suggested price for one agent: $8–12/hr.
+- Write the letter as flowing paragraphs, not a bullet list. Answer any numbered questions in the post inside the paragraphs.
+- Spell out the USPs clearly: the client pays for the agent(s) only; backup cover and QA are included at our cost; a managed team (not a lone freelancer), so there are no gaps for sickness or holidays; proven work for real brands.
+- Always attach portfolio projects (`portfolio_project_ids`) and mention them in the letter. Project ids: SwiftX 2077541820751921152, Creality 3D 2075023377945571328, Yarbo Robotics 2065949314242441216, SilkSilky 2093498389037232128, Amazon 2077560910421266432, Jet Springs - Everwash 2065931775756070912.
+- 24/7 small-team setup: 3 agents plus 1 QA (the only managerial role), with backup. We do not provide a team lead.
+- Per-case pricing (24/7 human-escalation work): $10/case at up to 8 cases/day, $8/case at 9–10 cases/day, $6/case above 10 cases/day.
 
 ## Job sources checked each run
 
