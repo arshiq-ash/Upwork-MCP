@@ -57,6 +57,7 @@ Every run also logs every newly seen named business to the `market` collection.
 
 - Customer Service category (newest first)
 - Personalised Most Recent feed (covers all categories)
+- Keyword search "customer support" sorted by recency. It catches jobs posted in other categories, such as Sales & Marketing and Admin Support, that the two feeds above miss or show late.
 - Admin Support category (currently blocked by a permission check)
 
 ## Never
