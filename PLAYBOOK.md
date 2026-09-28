@@ -44,6 +44,7 @@ Standing instructions for the Upwork bidding assistant. Read this at the start o
 - Never invent metrics, reviews or clients.
 - Suggested price for one agent: $8–12/hr.
 - Write the letter as flowing paragraphs, not a bullet list. Answer any numbered questions in the post inside the paragraphs.
+- Always say plainly: "You're not hiring a single freelancer — you get a team for the price of one agent, so your backlog/queue never depends on one person. Our QA checks every case against your SOPs and guidelines and flags anything that doesn't match."
 - Spell out the USPs clearly: the client pays for the agent(s) only; backup cover and QA are included at our cost; a managed team (not a lone freelancer), so there are no gaps for sickness or holidays; proven work for real brands.
 - **Always attach the relevant portfolio projects** (`portfolio_project_ids`, 1–3 most relevant to the job) on every proposal, in addition to the optiflowcx.com link. Project ids: SwiftX 2077541820751921152 (dispatch/logistics), Creality 3D 2075023377945571328 (tech support/after-sales), Yarbo Robotics 2065949314242441216 (hardware/warranty support), SilkSilky 2093498389037232128 (Shopify DTC), Amazon 2077560910421266432 (marketplace support), Jet Springs - Everwash 2065931775756070912.
 - Always include the portfolio link https://optiflowcx.com/portfolio in the letter. Don't paste the Upwork profile URL.
