@@ -44,7 +44,8 @@ Standing instructions for the Upwork bidding assistant. Read this at the start o
 - Always attach portfolio projects (`portfolio_project_ids`) and mention them in the letter. Project ids: SwiftX 2077541820751921152, Creality 3D 2075023377945571328, Yarbo Robotics 2065949314242441216, SilkSilky 2093498389037232128, Amazon 2077560910421266432, Jet Springs - Everwash 2065931775756070912.
 - Always include the portfolio link: https://www.upwork.com/freelancers/~01cef82da347abd5d1 (the portfolio section of the Upwork profile).
 - Always explain our values concisely, in one short paragraph: **Reliability** (no gaps; backup cover is on us), **Quality** (dedicated QA on every account at our cost), **Ownership** (agents own a case until it is resolved), **Transparency** (regular reporting; you pay only for what you hire).
-- 24/7 small-team setup: 3 agents plus 1 QA (the only managerial role), with backup. We do not provide a team lead.
+- 24/7 small-team setup: 3 agents plus 1 QA (the only managerial role), with backup. A team lead is added only when the client requires one or the team reaches 5–6 agents.
+- Response time: first reply within 2 minutes; we aim to keep it under 30 seconds.
 - Per-case pricing (24/7 human-escalation work): $10/case at up to 8 cases/day, $8/case at 9–10 cases/day, $6/case above 10 cases/day.
 
 ## Job sources checked each run
