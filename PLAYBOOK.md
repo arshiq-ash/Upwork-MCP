@@ -45,8 +45,8 @@ Standing instructions for the Upwork bidding assistant. Read this at the start o
 - Suggested price for one agent: $8–12/hr.
 - Write the letter as flowing paragraphs, not a bullet list. Answer any numbered questions in the post inside the paragraphs.
 - Spell out the USPs clearly: the client pays for the agent(s) only; backup cover and QA are included at our cost; a managed team (not a lone freelancer), so there are no gaps for sickness or holidays; proven work for real brands.
-- Do not attach Upwork portfolio projects (`portfolio_project_ids`); the optiflowcx.com link replaces them. Old project ids, for reference only: SwiftX 2077541820751921152, Creality 3D 2075023377945571328, Yarbo Robotics 2065949314242441216, SilkSilky 2093498389037232128, Amazon 2077560910421266432, Jet Springs - Everwash 2065931775756070912.
-- Always include the portfolio link https://optiflowcx.com/portfolio in the letter. Do not link or attach the Upwork profile portfolio.
+- **Always attach the relevant portfolio projects** (`portfolio_project_ids`, 1–3 most relevant to the job) on every proposal, in addition to the optiflowcx.com link. Project ids: SwiftX 2077541820751921152 (dispatch/logistics), Creality 3D 2075023377945571328 (tech support/after-sales), Yarbo Robotics 2065949314242441216 (hardware/warranty support), SilkSilky 2093498389037232128 (Shopify DTC), Amazon 2077560910421266432 (marketplace support), Jet Springs - Everwash 2065931775756070912.
+- Always include the portfolio link https://optiflowcx.com/portfolio in the letter. Don't paste the Upwork profile URL.
 - Always explain our values concisely, in one short paragraph: **Reliability** (no gaps; backup cover is on us), **Quality** (dedicated QA on every account at our cost), **Ownership** (agents own a case until it is resolved), **Transparency** (regular reporting; you pay only for what you hire).
 - 24/7 small-team setup: 3 agents plus 1 QA (the only managerial role), with backup. A team lead is added only when the client requires one or the team reaches 5–6 agents.
 - Response time: first reply within 2 minutes; we aim to keep it under 30 seconds.
