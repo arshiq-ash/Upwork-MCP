@@ -17,6 +17,8 @@ Standing instructions for the Upwork bidding assistant. Read this at the start o
 
 1. **Speed first:** bid only on jobs posted less than 5 minutes ago...
 2. **...unless the job has fewer than 10 proposals.** Then the 5-minute rule is waived, but every other rule still applies.
+   - The API's proposal count can be badly wrong. On 2026-09-28 it showed 8 for Charlie M while Upwork's Insights page showed 45. Re-check the count right before sending, and give the user the job link.
+   - For any job more than a few hours old, ask the user to confirm the count on the Upwork job page before sending.
 3. **Rate:** the hourly range must go above $6/hr.
 4. **Client hire rate above 90%.** Estimate it as `client_record.jobs_with_hires` (from `find_jobs get`) divided by `total_posted_jobs` (from `find_jobs search`).
 5. **Team or 24/7 jobs** (2+ hires or round-the-clock cover) come first and skip rule 3. Single-agent jobs are welcome too.
