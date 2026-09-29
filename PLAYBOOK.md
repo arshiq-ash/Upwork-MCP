@@ -13,6 +13,16 @@ Standing instructions for the Upwork bidding assistant. Read this at the start o
 1. **Backfill market watch.** Review jobs posted since the last session (Customer Service, Admin Support and the Most Recent feed). Add EVERY business named in a post to the `market` collection, whether or not we bid (doc id = job id; skip ones already logged). Record why we did or didn't bid. Never store contact details.
 2. **Start the watch:** `/loop 3m check new Upwork jobs against my bidding rules`
 
+## Current mode: market research only (since 2026-09-29)
+
+Until the user says otherwise, do not draft, propose or push applications, and do not send match alerts or Connects reminders.
+
+Each run:
+- Log every business named in a post to the `market` collection, whether or not its rate passes rule 3.
+- Still check the other rules (hire rate, location, role fit), and record which pass or fail in `we_bid`. For example: "Research only. Rules: hire rate FAIL (26%); location OK; role fit OK".
+- Also search "appointment setter", "cold calling" and "chat support" by recency. These searches surface named businesses that the Customer Service feeds miss.
+- A company counts only if it is named in the post itself. Never store people's names or contact details.
+
 ## Bidding rules
 
 1. **Speed first:** bid only on jobs posted less than 5 minutes ago...
